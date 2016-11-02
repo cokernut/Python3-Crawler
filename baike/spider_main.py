@@ -1,8 +1,10 @@
+"""
+主程序
+"""
 from baike import url_manager
 from baike import html_downloader
 from baike import html_parser
 from baike import html_outputer
-
 
 class SpiderMain(object):
     def __init__(self):
